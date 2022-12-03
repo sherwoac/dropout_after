@@ -2,12 +2,15 @@
 toy problem training binary classifier on a unit square without dropout, then using drop out at inference time.
 
 # install
+```bash
 conda create --name pytorch_env pytorch::pytorch nvidia::cudatoolkit conda-forge::numpy matplotlib
-
+```
 # run
+```bash
 conda activate pytorch_env
 
 python main.py
+```
 
 # results
 ![](results/no_dropout.png)
