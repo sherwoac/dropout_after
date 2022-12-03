@@ -6,6 +6,7 @@ conda create --name pytorch_env pytorch::pytorch nvidia::cudatoolkit conda-forge
 
 # run
 conda activate pytorch_env
+
 python main.py
 
 # results
